@@ -44,7 +44,7 @@ with st.form("heart_form"):
     sex = st.selectbox("Sex", ["M", "F"], help="M: Male | F: Female")
     chest_pain = st.selectbox(
         "Chest Pain Type", 
-        ["ATA", "NAP", "TA", "ASY"], 
+        ["Atypical Angina", "Non-Anginal Pain", "Typical Angina", "Asymptomatic"], 
         help="ATA: Atypical Angina, NAP: Non-anginal Pain, TA: Typical Angina, ASY: Asymptomatic"
     )
     resting_bp = st.number_input(
